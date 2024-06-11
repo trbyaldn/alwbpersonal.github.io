@@ -1,0 +1,516 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.back-beranda {
+    background-color: cadetblue;
+}
+
+
+.navbar-net {
+    background-color:cadetblue;
+    width: 100%;
+    height: 100%;
+    box-shadow: 5px 10px 8px black;
+}
+
+
+.ul-navbar {
+    display:flex;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+}
+
+.li-navbar {
+    list-style-type: none;
+    padding: 10px;
+    margin: 5px;
+    color:rgb(30, 29, 29);
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+
+.li-navbar:hover {
+    background-color:darkgrey;
+    transition: .2s ease-in-out;
+}
+
+.a-navbar {
+    color:rgb(33, 31, 31);
+    text-decoration: none;
+    font-weight: 800;
+}
+
+
+
+.profil-beranda {
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    top: 20%;
+    left: 43%;
+    border-radius: 50%;
+}
+
+.text-beranda1 {
+    color: white;
+    font-family: sans-serif;
+    position: absolute;
+    top: 60%;
+    left: 37%;
+}
+
+
+
+
+
+.back-word {
+    background-color: darkslategrey;
+}
+
+.container-word {
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+
+
+.all-sosmed {
+    background-color:silver;
+}
+
+
+
+
+.ig-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+}
+
+.ig-sosmed {
+    align-items: center;
+}
+
+.ig-img-sos{
+    width: 90px;
+    height: 90px;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-ig{
+    color:brown;
+    font-size: 10px;
+    width: 100%;
+    height: 100%
+}
+
+
+
+
+
+
+
+
+
+.tt-container{
+    display:flex;
+    justify-content: center;
+    height: 120px;
+}
+
+.tt-sosmed {
+    align-items: center;
+}
+
+.tt-img-sos{
+    width: 80px;
+    height: 90px;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-tt{
+    color:black;
+    font-size: 10px;
+    width: 100%;
+    height: 100%
+}
+
+
+
+
+
+
+
+.wa-container{
+    display:flex;
+    justify-content: center;
+    height: 120px;
+}
+
+.wa-sosmed {
+    align-items: center;
+}
+
+.wa-img-sos{
+    width: 90px;
+    height: 90px;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-wa{
+    color:forestgreen;
+    font-size: 10px;
+    width: 100%;
+    height: 100%
+}
+
+
+
+
+
+.wa1-container {
+    background-color: darkslategrey;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+}
+
+.tb-wa1 {
+    color: crimson;
+    border: 1px;
+}
+
+.text-wa1 {
+    color: white;
+    text-align: center;
+}
+
+
+
+
+
+
+.th-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+}
+
+.th-sosmed {
+    align-items: center;
+}
+
+.th-img-sos{
+    width: 300px;
+    height: 90px;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-th{
+    color:black;
+    font-size: 10px;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+.yt-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+}
+
+.yt-sosmed {
+    align-items: center;
+}
+
+.yt-img-sos{
+    width: 95px;
+    height: 90px;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-yt{
+    color:red;
+    font-size: 10px;
+    width: 100%;
+    height: 100%
+}
+
+
+.text-sos {
+    text-align: center;
+    font-family: arial;
+}
+
+
+
+
+
+
+
+.aldino {
+    background-image: url(aldino-background.jpg);
+    background-size: cover;
+}
+
+.div-aldino {
+    background-color:darkgray;
+    font-size: 1vw;
+    width: 200px;
+    height:100vh;
+}
+
+.aldino-img {
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    align-items:center;
+}
+
+.biodata {
+    color:black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align:center;
+    margin-top: 20px;
+}
+
+.biodata:hover {
+    color: white;
+    transition: 0,10s;
+}
+
+.tentang {
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align:center;
+    margin-top: 20px;
+}
+
+.tentang:hover {
+    color: white;
+    transition: 0,10s;
+}
+
+.body-port {
+    background-color: darkslategrey;
+}
+
+.portofolio {
+    color:black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align:center;
+    margin-top: 20px;
+}
+
+.portofolio:hover {
+    color: white;
+    transition: 0,10s;
+}
+
+.container-port {
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+.negara {
+    color: black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align:center;
+    margin-top: 20px;
+}
+
+.negara:hover {
+    color: white;
+    transition: 0,10s;
+}
+
+.kembali-about{
+    color: black;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 10px;
+}
+
+.kembali-about:hover {
+    color: white;
+    transition: 0,10s
+}
+
+
+
+
+
+.back-biodata {
+    background-color: darkslategrey;
+}
+
+.container-biodata {
+    color: white;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+
+
+
+
+
+.back-tentang {
+    background-color: darkslategrey;
+}
+
+.container-tentang {
+    color: white;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+
+
+.back-negara {
+    background-color: darkslategrey;
+}
+
+.container-negara {
+    color: white;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+
+
+
+h1 {
+    text-align: center;
+    margin-top: 0;
+}
+
+.img-biodata {
+    display: block;
+    margin: auto;
+    max-width: 300px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.img-tentang {
+    display: block;
+    margin: auto;
+    max-width: 300px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.img-negara {
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+
+
+
+
+.isi {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+.info {
+    margin-top: 20px;
+    color: white;
+}
+
+h2 {
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0 0 0 20px;
+}
+
+li {
+    margin: 5px 0;
+}
+
+.tombol-kembali {
+    color: black;
+}
+
+.back-portofolio {
+    color: black;
+    font-family: arial;
+    position:absolute;
+    top: 40vw;
+    left: 6vw;
+}
+
+.back-sosmed {
+    text-align: center;
+    font-family: arial;
+}
+
+.text-back-sosmed {
+    color: black;
+}
+
